@@ -5,13 +5,15 @@ use Illuminate\Support\ServiceProvider;
 
 return [
     /* Environment variables for website */
-    //config('app.myVarname')
+    //company information available to all pages on the website
     'phone' => env('COMPANY_PHONE_NO'),
     'email' => env('COMPANY_EMAIL'),
     'street' => env('COMPANY_STREET'),
     'city' => env('COMPANY_CITY'),
     'state' => env('COMPANY_STATE'),
     'zipcode' => env('COMPANY_ZIP_CODE'),
+    'latitude' => env('COMPANY_LATITUDE'),
+    'longitude' => env('COMPANY_LONGITUDE'),
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -26,7 +28,10 @@ return [
     'name' => env('APP_NAME', 'Tansa Tech LLC'),
     'appname' => env('APP_NAME', 'Tansa Tech LLC'),
     'appweburl' => env('APP_URL', 'http://tansatech.ouodesignllc.com'),
+    'linkedinurl' => env('COMPANY_LINKED_IN', "https://www.linkedin.com/company/tansa-tech-llc/"),
 
+    //urls and their titles
+    
 
     /*
     |--------------------------------------------------------------------------

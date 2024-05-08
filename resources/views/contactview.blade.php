@@ -5,10 +5,6 @@
 <title>@yield('pageTitle')</title>
 <!-- Stylesheets -->
 <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
-<link href="{{ asset('/plugins/revolution/css/settings.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
-<link href="{{ asset('/plugins/revolution/css/layers.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
-<link href="{{ asset('/plugins/revolution/css/navigation.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
-
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
 
@@ -20,6 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js') }}"></script><![endif]-->
 <!--[if lt IE 9]><script src="{{ asset('/js/respond.js') }}"></script><![endif]-->
+
 @yield('seo')
 <meta property="og:image" content="{{ asset('/images/tansatech_first_logo.png') }}">
 <meta property="og:url" content="{{ url()->current() }}">
@@ -33,11 +30,12 @@
 <div class="page-wrapper">
     <!-- Preloader -->
     <div class="preloader"></div>
-    
+
     @include('partials.basicheader')   
 
     @yield('pagecontent')
-
+    
+    
     @include('partials.basicfooter')
 
 </div>  
@@ -47,6 +45,10 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 <!--Scroll to top-->
-@include('partials.pagejs.mainbottom')
+
+@include('partials.pagejs.basicjs')
+<!--Google Map APi Key-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
+<script src="{{ asset('/js/map-script.js') }}"></script>
 </body>
 </html>
