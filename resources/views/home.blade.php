@@ -317,7 +317,7 @@ Home | Tansa Tech LLC | Energy Consultancy
                         <div class="feature-block">
                             <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><span class="icon flaticon-conveyor-3"></span></div>
-                                <h4><a href="{{ asset('/services-detail.html') }}">Technology-savvy</a></h4>
+                                <h4><a href="/services">Technology-savvy</a></h4>
                                 <div class="text">We only source materials from tried and trusted suppliers that meet our exacting standards of quality control.</div>
                             </div>
                         </div>
@@ -328,8 +328,8 @@ Home | Tansa Tech LLC | Energy Consultancy
                 <div class="video-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="video-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <figure class="image"><img src="{{ asset('/images/resource/image-1.jpg') }}" alt=""></figure>
-                            <a href="https://www.youtube.com/watch?v=e_WOEL6F1YE" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-play"></span></a>
+                            <figure class="image"><img src="{{ asset('/images/resource/image-1.jpg') }}" alt=""></figure> 
+                            <a href="{{ config('app.youtubeurl') }}" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-play"></span></a>
                         </div>
                         <div class="text">“ Industries is certified ISO 9001:2008 to ensure the quality of all its products and services Integer facilisis volutpat nisi, ut bibendum dolor lobortis sit amet. Vivamus bibendum dolor et feugiat elementum. Nullam non sem nec magna laoreet facilisis.</div>
                         <div class="info-box">

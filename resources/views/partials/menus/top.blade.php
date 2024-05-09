@@ -5,15 +5,12 @@
         <li><a href="/about">About</a></li>
         <li class="dropdown"><a href="/services">Services</a>
             <ul>
-                <li class="dropdown">
-                    <a href="/consulting">Consulting</a>
-                    <ul>
-                        <li><a href="/casestudy">Case Study</a></li>
-                        <li><a href="/testimonials">Testimonials</a></li>
-                    </ul>
-                </li>
-                <li><a href="/combustion-gasification">Combustion &amp; Gasification</a></li>
-                <li><a href="/water-treatment">Water Treatment and Heat Transfer</a></li>
+                <li><a href="/consulting">Consulting</a></li>
+                <li><a href="/ai">Artificial Intelligence</a></li>
+                <li><a href="/operational-technology">Operational Technology / IOT</a></li>
+                <li><a href="/combustion-gasification">Combustion Gasification</a></li>
+                <li><a href="/sustainable-systems-circular-economy">Sustainable Systems / Circular Economy</a></li>
+                <li><a href="/field-services">Field Services</a></li>
                 
             </ul>
         </li>

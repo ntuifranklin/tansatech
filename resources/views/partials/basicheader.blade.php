@@ -20,7 +20,7 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo-outer">
-                        <div class="logo"><a href="/home"><img width="180" height="49" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="" title="{{ config('app.appname')}}"></a></div>
+                        <div class="logo"><a href="/home"><img width="592" height="91" src="{{ asset('/images/tansatech_first_logo.jpg') }}" alt="" title="{{ config('app.appname')}}"></a></div>
                     </div>
                     
                     <!-- Requires definition of route with name contact in routing -->
@@ -118,7 +118,7 @@
             
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
-            	<div class="nav-logo"><a href="{{ asset('/home') }}"><img width="180" height="49" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="Tansa Tech LLC logo" title="Tansa Tech LLC"></a></div>
+            	<div class="nav-logo"><a href="{{ asset('/home') }}"><img width="592" height="91" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="Tansa Tech LLC logo" title="Tansa Tech LLC"></a></div>
                 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
             </nav>
