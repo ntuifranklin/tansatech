@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Case Study | Tansa Tech LLC | Energy Consultancy
+Case Study
 
 @endsection
 

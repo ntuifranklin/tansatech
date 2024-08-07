@@ -145,9 +145,20 @@
                         <span class="icon flaticon-sedan"></span>
                     </div>
                     <div class="lower-content">
-                        <h4><a href="/automotive-manufacturing">Automotive Manufacturing</a></h4>
-                        <div class="text">Nulla fringilla pellentesque egestas. Cras metus leo, tristique a purus vel, varius dignissim tortor. Sed iaculis pulvinar massa at luctus.</div>
-                        <a href="/automotive-manufacturing" class="read-more">Read More</a>
+                        <h4><a href="/operational-technology">Operational Technology</a></h4>
+                        <div class="text">
+                            Welcome to Tansa Tech's Operational Technology (OT) page. 
+                            Here, we delve into the advanced systems and processes that 
+                            enhance the efficiency and reliability of our renewable energy 
+                            solutions.
+                            Our OT services integrate cutting-edge technologies to monitor, 
+                            control, and optimize energy production and
+                            distribution. 
+                            From smart grids to automated control systems, 
+                            discover how Tansa Tech leverages OT to drive innovation 
+                            and sustainability in the energy sector.                      
+                        </div>
+                        <a href="/operational-technology" class="read-more">Read More</a>
                     </div>
                 </div>
             </div>

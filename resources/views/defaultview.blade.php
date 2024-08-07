@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>@yield('pageTitle')</title>
+<title>@yield('pageTitle') | {{ config('app.name') }} </title>
 <!-- Stylesheets -->
 <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ asset('/plugins/revolution/css/settings.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
@@ -20,12 +20,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js') }}"></script><![endif]-->
 <!--[if lt IE 9]><script src="{{ asset('/js/respond.js') }}"></script><![endif]-->
+
+    
+@include('partials.seo.metatags')  
+
+
 @yield('seo')
-<meta property="og:image" content="{{ asset('/images/tansatech_first_logo.png') }}">
-<meta property="og:url" content="{{ url()->current() }}">
-<meta property="og:type" content="website">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="{{ url()->current() }}">
+
+
 </head>
 
 <body>

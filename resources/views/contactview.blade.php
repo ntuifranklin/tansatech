@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>@yield('pageTitle')</title>
+<title>@yield('pageTitle') | {{ config('app.name') }}</title>
 <!-- Stylesheets -->
 <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
@@ -17,12 +17,12 @@
 <!--[if lt IE 9]><script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js') }}"></script><![endif]-->
 <!--[if lt IE 9]><script src="{{ asset('/js/respond.js') }}"></script><![endif]-->
 
+<!-- import default seo -->
+@include('partials.seo.metatags')  
+
+<!-- SEO specific to this page -->
 @yield('seo')
-<meta property="og:image" content="{{ asset('/images/tansatech_first_logo.png') }}">
-<meta property="og:url" content="{{ url()->current() }}">
-<meta property="og:type" content="website">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="{{ url()->current() }}">
+
 </head>
 
 <body>

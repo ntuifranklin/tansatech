@@ -1,9 +1,7 @@
 @extends('defaultview')
 
 @section('pageTitle')
-
-Home | Tansa Tech LLC | Energy Consultancy
-
+Home
 @endsection
 
 
@@ -44,7 +42,7 @@ Home | Tansa Tech LLC | Energy Consultancy
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <span class="title">Tansa Tech </span>
+                            <span class="title"> {{ config('app.appname') }} </span>
                         </div>
 
                         <div class="tp-caption" 
@@ -102,8 +100,8 @@ Home | Tansa Tech LLC | Energy Consultancy
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
                             <div class="link-box clearfix">
-                                <a href="{{ asset('/about') }}" class="theme-btn btn-style-one">Learn More</a>
-                                <a href="{{ asset('/about') }}" class="theme-btn btn-style-two">Our Services</a>
+                                <a href="/about" class="theme-btn btn-style-one">Learn More</a>
+                                <a href="/services" class="theme-btn btn-style-two">Our Services</a>
                             </div>
                         </div>
                     </li>
@@ -129,7 +127,7 @@ Home | Tansa Tech LLC | Energy Consultancy
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <span class="title">Tansa Tech</span>
+                            <span class="title">{{ config('app.appname') }}</span>
                         </div>
 
                         <div class="tp-caption" 
@@ -253,8 +251,8 @@ Home | Tansa Tech LLC | Energy Consultancy
                         data-textalign="['center','center','center','center']"
                         data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
                             <div class="link-box clearfix">
-                                <a href="{{ asset('/about') }}" class="theme-btn btn-style-one">Learn More</a>
-                                <a href="{{ asset('/about') }}" class="theme-btn btn-style-two">Our Services</a>
+                                <a href="/about" class="theme-btn btn-style-one">Learn More</a>
+                                <a href="/services" class="theme-btn btn-style-two">Our Services</a>
                             </div>
                         </div>
                     </li>
@@ -270,7 +268,7 @@ Home | Tansa Tech LLC | Energy Consultancy
             <div class="row">
                 <div class="title-column col-lg-3 col-md-12 col-sm-12">
                     <div class="inner-column">
-                        <h2>Welcome to <span>Tansa Tech</span></h2>
+                        <h2>Welcome to <span>{{ config('app.appname') }}</span></h2>
                     </div>
                 </div>
                 <div class="text-column col-lg-9 col-md-12 col-sm-12">
@@ -291,7 +289,7 @@ Home | Tansa Tech LLC | Energy Consultancy
                 <div class="content-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <span class="title">About Tansa Tech</span>
+                            <span class="title">About {{ config('app.appname') }}</span>
                             <h2>We Have Built an Enviable Reputation</h2>
                         </div>
 
@@ -299,7 +297,7 @@ Home | Tansa Tech LLC | Energy Consultancy
                         <div class="feature-block">
                             <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><span class="icon flaticon-checklist"></span></div>
-                                <h4><a href="{{ asset('/services-detail.html') }}">Markets and Product</a></h4>
+                                <h4><a href="{{ asset('/services') }}">Markets and Product</a></h4>
                                 <div class="text">Our team offers the most up-to-date, sustainable custom manufacturing solutions. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                             </div>
                         </div>
@@ -308,7 +306,7 @@ Home | Tansa Tech LLC | Energy Consultancy
                         <div class="feature-block">
                             <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><span class="icon flaticon-industry"></span></div>
-                                <h4><a href="{{ asset('/services-detail.html') }}">Solutions and Satisfaction Value</a></h4>
+                                <h4><a href="/services">Solutions and Satisfaction Value</a></h4>
                                 <div class="text">We partner with over 360 amazing ut projects worldwide, and have given over $280 million</div>
                             </div>
                         </div>
@@ -352,95 +350,31 @@ Home | Tansa Tech LLC | Energy Consultancy
             </div>
 
             <div class="row">
-                <!-- Service Block -->
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="{{ asset('/chemical-research.html') }}"><img src="{{ asset('/images/resource/service-1.jpg') }}" alt=""></a></figure>
-                            <span class="icon flaticon-test"></span>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="{{ asset('/chemical-research.html') }}">Chemical Research</a></h4>
-                            <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                            <a href="{{ asset('/chemical-research.html') }}" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
+            @php
 
-                <!-- Service Block -->
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="{{ asset('/automotive-manufacturing.html') }}"><img src="{{ asset('/images/resource/service-2.jpg') }}" alt=""></a></figure>
-                            <span class="icon flaticon-sedan"></span>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="{{ asset('/automotive-manufacturing.html') }}">Automotive Manufacturing</a></h4>
-                            <div class="text">Nulla fringilla pellentesque egestas. Cras metus leo, tristique a purus vel, varius dignissim tortor. Sed iaculis pulvinar massa at luctus.</div>
-                            <a href="{{ asset('/automotive-manufacturing.html') }}" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
+            use Illuminate\Support\Facades\File;
+            /* storage_path assumes content in /sotrage folder(root app folder, then storage */
+            $services = json_decode(File::get(storage_path('../resources/views/partials/menus/servicesurls.json')), true);
+            @endphp
 
-                <!-- Service Block -->
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="{{ asset('/oil-and-gas.html') }}"><img src="{{ asset('/images/resource/service-3.jpg') }}" alt=""></a></figure>
-                            <span class="icon flaticon-gas-station"></span>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="{{ asset('/oil-and-gas.html') }}">Oil & Gas Engineering</a></h4>
-                            <div class="text">Donec ultricies auctor risus, ac efficitur nibh efficitur gravida. Cras nulla lacus, suscipit quis ipsum sed, maximus porttitor diam.</div>
-                            <a href="{{ asset('/oil-and-gas.html') }}" class="read-more">Read More</a>
-                        </div>
+            @foreach($services as $link => $anchor_text)                
+            <!-- Service Block -->
+            <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href="{{ asset('/chemical-research.html') }}"><img src="{{ asset('/images/resource/service-1.jpg') }}" alt=""></a></figure>
+                        <span class="icon flaticon-test"></span>
+                    </div>
+                    <div class="lower-content">
+                        <h4><a href="/{{ $link }}">{{$anchor_text}}</a></h4>
+                        <div class="text">{{$anchor_text}}.</div>
+                        <a href="/{{ $link }}" class="read-more">Read More</a>
                     </div>
                 </div>
+            </div>
+            @endforeach
 
-                <!-- Service Block -->
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="{{ asset('/agricultural-automation.html') }}"><img src="{{ asset('/images/resource/service-4.jpg') }}" alt=""></a></figure>
-                            <span class="icon flaticon-plant"></span>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="{{ asset('/agricultural-automation.html') }}">Agricultural Automation</a></h4>
-                            <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                            <a href="{{ asset('/agricultural-automation.html') }}" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service Block -->
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="{{ asset('/mechanical-engineering.html') }}"><img src="{{ asset('/images/resource/service-5.jpg') }}" alt=""></a></figure>
-                            <span class="icon flaticon-robot-arm"></span>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="{{ asset('/mechanical-engineering.html') }}">Mechanical Engineering</a></h4>
-                            <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                            <a href="{{ asset('/mechanical-engineering.html') }}" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service Block -->
-                <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="{{ asset('/civil-cngineering.html') }}"><img src="{{ asset('/images/resource/service-6.jpg') }}" alt=""></a></figure>
-                            <span class="icon flaticon-crane"></span>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="{{ asset('/civil-cngineering.html') }}">Civil Engineering</a></h4>
-                            <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                            <a href="{{ asset('/civil-cngineering.html') }}" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>

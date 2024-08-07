@@ -16,7 +16,7 @@
                                     <ul class="social-icon-one">
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                        
                                         <li><a href="{{ config('app.linkedinurl') }}"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                     
@@ -29,11 +29,11 @@
                         <div class="row">
                             <div class="footer-column col-lg-2 col-md-3 col-sm-12">
                                 <div class="footer-widget links-widget">
-                                    <h2 class="widget-title">Quick link</h2>
+                                    <h2 class="widget-title">Quick Links</h2>
                                     <div class="widget-content">
                                         <ul class="list">
                                             <li><a href="/home">Home</a></li>
-                                            <li><a href="/about">About Us</a></li>
+                                            <!-- <li><a href="/about">About Us</a></li> -->
                                             <li><a href="/contact">Get A Quote</a></li>
                                             <li><a href="/contact">Contact Us</a></li>
                                         </ul>
@@ -46,13 +46,8 @@
                                     <h2 class="widget-title">Our Services</h2>
                                     <div class="widget-content">
                                         <ul class="list">
-                                            
-                                            <li><a href="/consulting">Consulting</a></li>
-                                            <li><a href="/ai">Artificial Intelligence</a></li>
-                                            <li><a href="/operational-technology">Operational Technology / IOT</a></li>
-                                            <li><a href="/combustion-gasification">Combustion Gasification</a></li>
-                                            <li><a href="/sustainable-systems-circular-economy">Sustainable Systems / Circular Economy</a></li>
-                                            <li><a href="/field-services">Field Services</a></li>
+                                           
+                                            @include('partials.menus.serviceslisturls')
                                             
                                         </ul>
                                     </div>
@@ -65,12 +60,7 @@
                                     <div class="widget-content">
                                         <ul class="list">
                                             
-                                            <li><a href="/data-viz">Data Visualization Project For...</a></li>
-                                            <li><a href="/grant-writing">Grant Writing and Funding Campaign for...</a></li>
-                                            <li><a href="/development-of-forestry">Development of forestry ...</a></li>
-                                            <li><a href="/development-of-user-friendly">Development of user-friendly pest...</a></li>
-                                            <li><a href="/heat-transfer-analysys">Heat transfer analysis and precipitation est...</a></li>
-
+                                            @include('partials.menus.projectslistsurls')
                                         </ul>
                                     </div>
                                 </div>
@@ -98,8 +88,12 @@
         <!--Bottom-->
         <div class="footer-bottom">
             <div class="auto-container">
-                <div class="copyright-text">Copyright &copy; 2014 - {{ date('Y')}} <a href="./">Tansa Tech LLC</a>. All Right Reserved</div>
-                <div class="copyright-text">Designed by <a href="https://ouodesignllc.com">ouo design llc</a></div>
+                <div class="copyright-text">
+                    Copyright &copy; 2014 - {{ date('Y')}} 
+                    <a href="./">{{ config('app.appname') }} </a>. 
+                    All Right Reserved
+                </div>
+                <div class="copyright-text">Designed by  <a href="https://ouodesignllc.com">ouo design llc</a></div>
             </div> 
         </div>
         

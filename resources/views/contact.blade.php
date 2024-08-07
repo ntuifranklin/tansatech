@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Contact Us | Tansa Tech LLC | Energy Consultancy
+Contact Us
 
 @endsection
 
@@ -40,36 +40,6 @@ Contact Us | Tansa Tech LLC | Energy Consultancy
                             <span class="title">Keep in touch</span>
                             <h2>Support Team Always Ready <br>To help You</h2>
                             <div class="text">All or submit our online form to request an estimate or for general questions about U.S. Certified Contractors and our services. We look forward to serving you!</div>
-                        </div>
-
-                        <!-- Used to have a div class row with two support blocks in them. 
-                        Please see contact.html in template -->
-                        <div class="row">
-                            <!-- Support Block -->
-                            <div class="support-block col-lg-6 col-md-6 col-sm-12 wow fadeInLeft">
-                                <div class="inner-box">
-                                    <div class="thumb"><img src="images/resource/thumb-5.jpg" alt=""></div>
-                                    <h5 class="name">Justin Perkins</h5>
-                                    <span class="designation">Tax Consultant</span>
-                                    <ul class="contact-info">
-                                        <li><i class="material-icons">phone</i> <a href="tel:001-678-88366">(001)-678-88366</a></li>
-                                        <li><i class="material-icons">email</i> <a href="mailto:justin@industar.com">justin@industar.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <!-- Support Block -->
-                            <div class="support-block col-lg-6 col-md-6 col-sm-12 wow fadeInRight">
-                                <div class="inner-box">
-                                    <div class="thumb"><img src="images/resource/thumb-6.jpg" alt=""></div>
-                                    <h5 class="name">Victoria Wells</h5>
-                                    <span class="designation">Top Manager</span>
-                                    <ul class="contact-info">
-                                        <li><i class="material-icons">phone</i> <a href="tel:001-678-88366">(001)-678-88366</a></li>
-                                        <li><i class="material-icons">email</i> <a href="mailto:justin@industar.com">justin@industar.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
 
                         <!-- Contact Form -->

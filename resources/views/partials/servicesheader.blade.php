@@ -1,18 +1,39 @@
 
-<header class="main-header">
+<header class="main-header header-style-five">
         <!-- Header Top -->
         <div class="header-top">
             <div class="auto-container clearfix">
-                <div class="top-right clearfix">
+                <div class="top-left">
                     <ul class="info-list">
-                        <li class="title"><strong>Do you need help? Here Us:</strong></li>
-                        <li><span class="material-icons">phone</span><a href="tel:{{ config('app.phone') }}">{{ config('app.phone') }}</a></li>
-                        <li><span class="material-icons">email</span><a href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a></li>
+                        <li><strong>Do you need help? Here Us:</strong></li>
+                        <li><span class="material-icons">phone</span><a href="tel:001-845-28386">(001)-845-28386</a></li>
+                        <li><span class="material-icons">email</span><a href="mailto:info@industar.com">info@industar.com</a></li>
                         <li><span class="material-icons">access_time</span> Mon - Fri: 8am - 6pm</li>
                     </ul>
                 </div>
+                <div class="top-right clearfix">
+                    <ul class="social-icon-one">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+
+                    <!-- Change Location -->
+                    <div class="change-language">
+                        <div class="language dropdown"><a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span class="flag eng"></span>English <i class="material-icons">expand_more</i></a>
+                            <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">Arabic</a></li>
+                                <li><a href="#">Chinese</a></li>
+                                <li><a href="#">Spanish</a></li>
+                                <li><a href="#">English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Header Top -->
 
         <!-- Header Upper -->
         <div class="header-upper">
@@ -20,18 +41,40 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo-outer">
-                        <div class="logo"><a href="/home"><img width="592" height="91" src="{{ asset('/images/tansatech_first_logo.jpg') }}" alt="" title="{{ config('app.appname')}}"></a></div>
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="Industry and Factory HTML Template"></a></div>
                     </div>
-                    
-                    <!-- Requires definition of route with name contact in routing 
-                     and also the definition of route operational-technology
-                    -->
-                    
-                    @if(Route::is('contact'))
-                        @include('partials.officeinfoheader')
-                    @else
-                        @include('partials.standardinfoheader')
-                    @endif
+
+                    <!--Info-->
+                    <div class="info-outer clearfix">
+                        <!--Info Box-->
+                        <div class="info-box">
+                            <div class="inner">
+                                <div class="icon"><span class="la la-clock-o"></span></div>
+                                <strong>Work Time</strong>
+                                <span class="info">Mon - Fri: 8am - 6pm</span>
+                                <span class="info">Sat - Sun: 9am - 3pm</span>
+                            </div>
+                        </div>
+
+                        <!--Info Box-->
+                        <div class="info-box">
+                            <div class="inner">
+                                <div class="icon"><span class="la la-microphone"></span></div>
+                                <strong>Support Center</strong>
+                                <span class="info"><a href="tel:001-845-28386">(001)-845-28386 </a></span>
+                                <span class="info"><a href="mailto:info@industar.com">info@industar.com</a></span>
+                            </div>
+                        </div>
+
+                        <!--Info Box-->
+                        <div class="info-box">
+                            <div class="inner">
+                                <div class="icon"><span class="la la-map-marker"></span></div>
+                                <strong>Leading Industry</strong>
+                                <span class="info">344 Victory Blvd, Staten <br>Island, NY 10301</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,6 +87,7 @@
                 <div class="nav-outer clearfix">
                     <!--Mobile Navigation Toggler-->
                     <div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+
                     <!-- Main Menu -->
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="navbar-header">
@@ -66,7 +110,7 @@
                                 <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
                                     <li class="panel-outer">
                                         <div class="form-container">
-                                            <form>
+                                            <form method="post" action="index.html">
                                                 <div class="form-group">
                                                     <input type="search" name="field-name" value="" placeholder="Search Here" required>
                                                     <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
@@ -78,12 +122,9 @@
                             </div>
                         </div>
 
-                        <div class="social-links">
-                            <ul class="social-icon-one">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="{{ config('app.linkedinurl') }}"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
+                        <!-- Btn Box -->
+                        <div class="btn-box">
+                            <a href="contact.html" class="theme-btn btn-style-one">Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +136,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="/" title=""><img width="180" height="49" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="" title=""></a>
+                    <a href="/" title=""><img src="images/logo-small.png" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -109,7 +150,6 @@
             </div>
         </div><!-- End Sticky Menu -->
 
-
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
@@ -117,11 +157,11 @@
             
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
-            	<div class="nav-logo"><a href="{{ asset('/home') }}"><img width="592" height="91" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="Tansa Tech LLC logo" title="Tansa Tech LLC"></a></div>
+            	<div class="nav-logo"><a href="index.html"><img src="images/nav-logo.png" alt="" title=""></a></div>
                 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
             </nav>
         </div><!-- End Mobile Menu -->
 
-    </header>
-    <!-- End Main Header -->
+</header>
+<!-- End Main Header -->

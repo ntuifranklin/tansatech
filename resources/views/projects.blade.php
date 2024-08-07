@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Our Projects | Tansa Tech LLC | Energy Consultancy
+Our Projects
 
 @endsection
 
