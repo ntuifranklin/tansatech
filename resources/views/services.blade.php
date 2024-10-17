@@ -113,23 +113,27 @@
         </div>
 
         <div class="row">
+            
+            @php
+
+            use Illuminate\Support\Facades\File;
+            /* storage_path assumes content in /sotrage folder(root app folder, then storage */
+            $services = json_decode(File::get(storage_path('../resources/views/partials/menus/servicesurls.json')), true);
+            @endphp
+
+            @foreach($services as $link => $service_data)                
+            
             <!-- Service Block -->
             <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                 <div class="inner-box">
                     <div class="image-box">
-                        <figure class="image"><a href="/chemical-research"><img src="{{ asset('/images/resource/service-1.jpg') }}" alt=""></a></figure>
+                        <figure class="image"><a href="/{{ $link }}"><img src="{{ asset('/images/resource/service-1.jpg') }}" alt=""></a></figure>
                         <span class="icon flaticon-test"></span>
                     </div>
                     <div class="lower-content">
-                        <h4><a href="/chemical-research">Water Treatment and Heat Transfer</a></h4>
+                        <h4><a href="/{{ $link }}">{{$service_data[0]}}</a></h4>
                         <div class="text">
-                            <ul>
-                                <li>Industrial Water Treatment: Cooling towers</li>
-                                <li>Water treatment for Oil and gas industries</li>
-                                <li>Heat transfer analysis for commercial cooling</li>
-                                <li>Desalination, Mechanical Vapor Recompression</li>
-                                <li>Biofilters/Carbon filter research</li>
-                            </ul>
+                            {{$service_data[1]}}                           
 
                         </div>
                         <!-- <a href="/chemical-research" class="read-more">Read More</a>  -->
@@ -137,91 +141,7 @@
                 </div>
             </div>
 
-            <!-- Service Block -->
-            <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="/automotive-manufacturing"><img src="{{ asset('/images/resource/service-2.jpg') }}" alt=""></a></figure>
-                        <span class="icon flaticon-sedan"></span>
-                    </div>
-                    <div class="lower-content">
-                        <h4><a href="/operational-technology">Operational Technology</a></h4>
-                        <div class="text">
-                            Welcome to Tansa Tech's Operational Technology (OT) page. 
-                            Here, we delve into the advanced systems and processes that 
-                            enhance the efficiency and reliability of our renewable energy 
-                            solutions.
-                            Our OT services integrate cutting-edge technologies to monitor, 
-                            control, and optimize energy production and
-                            distribution. 
-                            From smart grids to automated control systems, 
-                            discover how Tansa Tech leverages OT to drive innovation 
-                            and sustainability in the energy sector.                      
-                        </div>
-                        <a href="/operational-technology" class="read-more">Read More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block -->
-            <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="/oil-and-gas"><img src="{{ asset('/images/resource/service-3.jpg') }}" alt=""></a></figure>
-                        <span class="icon flaticon-gas-station"></span>
-                    </div>
-                    <div class="lower-content">
-                        <h4><a href="/oil-and-gas">Oil & Gas Engineering</a></h4>
-                        <div class="text">Donec ultricies auctor risus, ac efficitur nibh efficitur gravida. Cras nulla lacus, suscipit quis ipsum sed, maximus porttitor diam.</div>
-                        <a href="/oil-and-gas" class="read-more">Read More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block -->
-            <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="/agricultural-automation"><img src="{{ asset('/images/resource/service-4.jpg') }}" alt=""></a></figure>
-                        <span class="icon flaticon-plant"></span>
-                    </div>
-                    <div class="lower-content">
-                        <h4><a href="/agricultural-automation">Agricultural Automation</a></h4>
-                        <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                        <a href="/agricultural-automation" class="read-more">Read More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block -->
-            <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="/mechanical-engineering."><img src="{{ asset('/images/resource/service-5.jpg') }}" alt=""></a></figure>
-                        <span class="icon flaticon-robot-arm"></span>
-                    </div>
-                    <div class="lower-content">
-                        <h4><a href="/mechanical-engineering.">Mechanical Engineering</a></h4>
-                        <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                        <a href="/mechanical-engineering." class="read-more">Read More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block -->
-            <div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="/civil-cngineering"><img src="{{ asset('/images/resource/service-6.jpg') }}" alt=""></a></figure>
-                        <span class="icon flaticon-crane"></span>
-                    </div>
-                    <div class="lower-content">
-                        <h4><a href="/civil-cngineering">Civil Engineering</a></h4>
-                        <div class="text">Vivamus finibus sed lacus a posuere. Fusce nec tempus mi, a placerat lacus. Quisque auctor eros at elementum sagittis.</div>
-                        <a href="/civil-cngineering" class="read-more">Read More</a>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>

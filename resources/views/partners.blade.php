@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Partners
+Partners 
 
 @endsection
 

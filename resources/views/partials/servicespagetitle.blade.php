@@ -1,6 +1,6 @@
 
      <!--Page Title-->
-     <section class="page-banner" style="background-image:url(images/background/13.jpg);">
+     <section class="page-banner" style="background-image:url({{ asset('/images/tansatech_first_logo.png')}});">
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <h1>@yield('pageTitle')</h1>

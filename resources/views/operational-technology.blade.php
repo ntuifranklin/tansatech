@@ -1,7 +1,7 @@
 @extends('servicesdefaultview')
 
 @section('pageTitle')
-Operational Technology 
+Operational Technology  
 @endsection
 
 
@@ -27,12 +27,13 @@ Operational Technology
                     <div class="service-detail">
                         <div class="images-box row">
                             <div class="column col-lg-8 col-md-12 col-sm-12 wow fadeInLeft">
-                                <figure class="image wow fadeIn"><a href="images/resource/service-img-1.jpg" class="lightbox-image"><img src="images/resource/service-img-1.jpg" alt=""></a></figure>
+                                <figure class="image wow fadeIn"><a href="{{ asset('/images/service_photos/iot_and_smart_city/1573_The_Benefits_of_IoT_in_Smart_Energy_Management.svg') }}" class="lightbox-image"><img src="{{ asset('/images/service_photos/iot_and_smart_city/1573_The_Benefits_of_IoT_in_Smart_Energy_Management.webp') }}" alt=""></a></figure>
                             </div>
 
                             <div class="column col-lg-4 col-md-12 col-sm-12 wow fadeInRight pro-col">
-                                <figure class="image"><a href="images/resource/service-img-2.jpg" class="lightbox-image"><img src="images/resource/service-img-2.jpg" alt=""></a></figure>
-                                <figure class="image"><a href="images/resource/service-img-3.jpg" class="lightbox-image"><img src="images/resource/service-img-3.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="{{ asset('/images/service_photos/iot_and_smart_city/computer-g9fafa31ff_1280-1024x766.jpg') }}" class="lightbox-image"><img src="{{ asset('/images/service_photos/iot_and_smart_city/computer-g9fafa31ff_1280-1024x766.jpg') }}" alt=""></a></figure>
+                                <figure class="image"><a href="{{ asset('/images/service_photos/iot_and_smart_city/Tosibox-Style-Graphic-IoT-Solutions-1-5eea2b2d8fe47-1140x507.webp') }}" class="lightbox-image"><img src="{{ asset('/images/service_photos/iot_and_smart_city/Tosibox-Style-Graphic-IoT-Solutions-1-5eea2b2d8fe47-1140x507.webp') }}" alt=""></a></figure>
+
                             </div>
                         </div>
 
@@ -146,7 +147,7 @@ Operational Technology
                                 <h4 class="title">Why Operational Technology Matters</h4>
                                 <div class="row">
                                     <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                                        <figure class="image"><a href="images/resource/post-img-2.jpg" class="lightbox-image"><img src="images/resource/post-img-2.jpg" alt=""></a></figure>
+                                        <figure class="image"><a href="{{ asset('/images/service_photos/iot_and_smart_city/IOT1b.svg') }}" class="lightbox-image"><img src="{{ asset('/images/service_photos/iot_and_smart_city/IOT1b.svg') }}" alt=""></a></figure>
                                     </div>
                                     <div class="text-column col-lg-6 col-md-12 col-sm-12">
                                         <p>
@@ -279,7 +280,7 @@ Operational Technology
                                     <h4>Get A Free Consultation Call From Us !</h4>
                                     <a href="/contact" class="theme-btn btn-style-four">Get Free Quote</a>
                                 </div>
-                                <figure class="image"><img src="images/resource/man-img-2.png" alt=""></figure>
+                                <!-- <figure class="image"><img src="{{ asset('/images/service_photos/iot_and_smart_city/IOT1b.svg') }}" alt=""> </figure> -->
                             </div>
                         </div>
                     </div>

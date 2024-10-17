@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Case Study
+Case Study 
 
 @endsection
 

@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Contact Us
+Contact Us 
 
 @endsection
 
@@ -16,7 +16,7 @@ Contact Us
 @section('pagecontent')
 
      <!--Page Title-->
-     <section class="page-banner" style="background-image:url(images/background/14.jpg);">
+     <section class="page-banner" style="background-image:url({{ asset('/images/tansatech_first_logo.png')}} );">
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <h1>Contact Us</h1>
@@ -33,7 +33,7 @@ Contact Us
     <section class="contact-page-section">
         <div class="auto-container">
             <div class="row">
-                <!-- Form Column -->
+                <!-- Form Column 
                 <div class="form-column col-lg-8 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="sec-title">
@@ -42,10 +42,10 @@ Contact Us
                             <div class="text">All or submit our online form to request an estimate or for general questions about U.S. Certified Contractors and our services. We look forward to serving you!</div>
                         </div>
 
-                        <!-- Contact Form -->
+                        
                         <div class="contact-form style-two">
                             <div class="form-inner">
-                                <!--Comment Form-->
+                                
                                 <form method="post" action="sendemail.php" id="contact-form">
                                     <div class="row clearfix">
                                         <div class="col-lg-4 col-md-6 col-sm-12 form-group">
@@ -70,12 +70,13 @@ Contact Us
                                     </div>
                                 </form>
                             </div>
-                        </div><!--End contact Form -->
+                        </div>
+                        
                     </div>
                 </div>
-
+                -->
                 <!-- Map Column -->
-                <div class="map-column col-lg-4 col-md-12 col-sm-12">
+                <div class="map-column col-lg-12 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <!-- Location -->
                         <div class="location-info">
@@ -109,7 +110,7 @@ Contact Us
                             </ul>
                         </div>
 
-                        <!-- Social Links -->
+                        <!-- Social Links 
                         <div class="social-links">
                             <ul class="social-icon">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
@@ -118,8 +119,9 @@ Contact Us
                                 <li><a href="{{ config('app.linkedinurl') }}"><span class="fab fa-linkedin-in"></span></a></li>
                             </ul>
                         </div>
+                        -->
 
-                        <!-- Social Outer -->
+                        <!-- Social Outer 
                         <div class="map-outer">
                             <div class="map-canvas"
                                 data-zoom="12"
@@ -128,10 +130,11 @@ Contact Us
                                 data-type="roadmap"
                                 data-hue="#ffc400"
                                 data-title="{{ config('app.appname') }}"
-                                data-icon-path="images/icons/map-marker.png"
+                                data-icon-path="{{ asset('/images/icons/map-marker.png')}}"
                                 data-content="{{ config('app.city') }} {{ config('app.zipcode') }} , US<br><a href='mailto:{{ config('app.email') }}'>{{ config('app.email') }}</a>">
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>

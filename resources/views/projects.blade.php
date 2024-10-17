@@ -1,8 +1,8 @@
 @extends('projectsview')
 
 @section('pageTitle')
-
-Our Projects
+ 
+Our Projects 
 
 @endsection
 

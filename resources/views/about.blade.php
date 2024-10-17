@@ -3,7 +3,7 @@
 
 @section('pageTitle')
 
-About Us
+About Us 
 
 @endsection
 

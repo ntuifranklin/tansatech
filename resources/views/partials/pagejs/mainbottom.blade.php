@@ -15,7 +15,11 @@
 <script src="{{ asset('/plugins/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
 <script src="{{ asset('/js/main-slider-script.js') }}"></script>
 <!--Revolution Slider-->
-<script src="{{ asset('/js/jquery-ui.js') }}"></script>
+
+@include('partials.pagejs.jqueryuifancyboxminified')
+
+
+<!-- <script src="{{ asset('/js/jquery-ui.js') }}"></script> -->
 <script src="{{ asset('/js/jquery.fancybox.js') }}"></script>
 <script src="{{ asset('/js/owl.js') }}"></script>
 <script src="{{ asset('/js/wow.js') }}"></script>

@@ -1,7 +1,7 @@
 @extends('defaultview')
 
 @section('pageTitle')
-Error 404 Page
+Error 404 Page 
 @endsection
 
 

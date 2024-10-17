@@ -9,17 +9,35 @@
                         <div class="footer-column">
                             <div class="footer-widget about-widget">
                                 <div class="footer-logo">
-                                    <figure class="image"><a href="{{ asset('/home') }}"><img width="180" height="49" src="{{ asset('/images/tansatech_first_logo.png') }}" alt=""></a></figure>
+                                    <figure class="image">
+                                        <a href="{{ asset('/home') }}">
+                                            <img width="90" height="90" src="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" alt="">
+                                        </a>
+                                        </figure>
                                 </div>
                                 <div class="widget-content">
                                     <div class="text">We give value to the excellence and <br>top class engineers, but in terms of<br> accurate service.</div>
+                                    <!-- 
                                     <ul class="social-icon-one">
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         
                                         <li><a href="{{ config('app.linkedinurl') }}"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
-                                    
+                                    -->
+                                    <ul class="social-icon-one">
+                                        <li>
+                                            <figure class="image">
+                                                <img width="90" height="90" src="{{ asset('/images/sba_certified_logo.jpg') }}" alt="">
+                                            </figure>
+                                        </li>
+                                        <li><hr/></li>
+                                        <li>
+                                            <figure class="image">
+                                                <img width="90" height="90" src="{{ asset('/images/nmsdc_mbe_certified.jpg') }}" alt="">
+                                            </figure>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -54,19 +72,36 @@
                                 </div>
                             </div>
                             
-                            <div class="footer-column col-lg-4 col-md-3 col-sm-12">
+                                
+                            <div class="footer-column col-lg-2 col-md-3 col-sm-12">
                                 <div class="footer-widget links-widget">
-                                    <h2 class="widget-title">Projects</h2>
+                                    <h2 class="widget-title">Consulting</h2>
                                     <div class="widget-content">
                                         <ul class="list">
                                             
-                                            @include('partials.menus.projectslistsurls')
+                                            @include('partials.menus.consultinglist')
+
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+                        
 
                             <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Featured Work</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            
+                                            @include('partials.menus.featuredworklistsurls')
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="footer-column col-lg-2 col-md-3 col-sm-12">
                                 <div class="footer-widget contact-widget">
                                     <h2 class="widget-title">Contact Info</h2>
                                     <div class="widget-content">

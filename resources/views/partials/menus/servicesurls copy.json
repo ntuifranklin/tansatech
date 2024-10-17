@@ -1,0 +1,9 @@
+{
+    "consulting" : ["Consulting","Our expert consulting services help businesses navigate complex technological landscapes, offering strategic advice and customized solutions to drive growth and innovation"],
+    "ai": ["Artificial Intelligence","Leverage the power of artificial intelligence to enhance operational efficiency, optimize decision-making, and unlock new opportunities for your business."],
+    "operational-technology":["Operational Technology / IOT","Integrate cutting-edge IoT and operational technology solutions to streamline processes, improve safety, and enable real-time data insights."],
+    "combustion":["Combustion","Explore advanced combustion technologies designed to maximize energy efficiency, reduce emissions, and provide reliable power generation solutions."],
+    "gasification":["Gasification","Our innovative gasification solutions transform waste materials into valuable energy, supporting sustainability and reducing environmental impact."],
+    "sustainable-systems-circular-economy":["Sustainable Systems / Circular Economy","Implement sustainable systems and circular economy practices to minimize waste, conserve resources, and create long-term value for your organization."],
+    "energy-storage":["Energy Storage","Discover our cutting-edge energy storage solutions designed to enhance grid stability, support renewable integration, and provide reliable power backup."]
+}

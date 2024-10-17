@@ -1,9 +1,8 @@
 {
-    "consulting" : "Consulting",
-    "ai": "Artificial Intelligence",
-    "operational-technology":"Operational Technology / IOT",
-    "combustion":"Combustion",
-    "gasification":"Gasification",
-    "sustainable-systems-circular-economy":"Sustainable Systems / Circular Economy",
-    "energy-storage":"Energy Storage"
+    "operational-technology":["Operational Technology / IOT","Integrate cutting-edge IoT and operational technology solutions to streamline processes, improve safety, and enable real-time data insights.", "/images/service_photos/iot_and_smart_city/1573_The_Benefits_of_IoT_in_Smart_Energy_Management.svg"],
+    "ai": ["Artificial Intelligence","Leverage the power of artificial intelligence to enhance operational efficiency, optimize decision-making, and unlock new opportunities for your business.", "/images/service_photos/iot_and_smart_city/computer-g9fafa31ff_1280-1024x766.jpg"],
+    "combustion":["Combustion","Explore advanced combustion technologies designed to maximize energy efficiency, reduce emissions, and provide reliable power generation solutions.","/images/service_photos/boilar-energy-factory.svg"],
+    "gasification":["Gasification","Our innovative gasification solutions transform waste materials into valuable energy, supporting sustainability and reducing environmental impact.","https://www.researchgate.net/publication/320977057/figure/fig6/AS:558988999786506@1510284771598/Process-diagram-of-the-Skive-biomass-gasification-Denmark-Source-Silo-2008.png"],
+    "sustainable-systems-circular-economy":["Sustainable Systems / Circular Economy","Implement sustainable systems and circular economy practices to minimize waste, conserve resources, and create long-term value for your organization.","https://images.squarespace-cdn.com/content/v1/63e239416016765b92d685ac/1681093066711-63GQLZWJDUGXIYWOV75K/economia-circular-e1582021298407.jpg"],
+    "energy-storage":["Energy Storage","Discover our cutting-edge energy storage solutions designed to enhance grid stability, support renewable integration, and provide reliable power backup.","/images/service_photos/energy_storage/energy_storage.webp"]
 }

@@ -38,9 +38,16 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
+
+Route::get('/ai', function () {
+    return view('ai');
+});
+
+/*
 Route::get('/services', function () {
     return view('services');
 });
+*/
 
 Route::get('/operational-technology', function(){
     return view('operational-technology');
@@ -79,7 +86,6 @@ Route::get('/consulting', function () {
 Route::get('/sustainable-systems-circular-economy', function () {
     return view('sustainable-systems-circular-economy');
 });
-
 
 
 Route::fallback(function () {
