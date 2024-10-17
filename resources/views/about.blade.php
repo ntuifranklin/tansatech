@@ -3,7 +3,7 @@
 
 @section('pageTitle')
 
-About Us | Tansa Tech LLC | Energy Consultancy
+About Us 
 
 @endsection
 

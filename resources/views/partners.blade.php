@@ -2,7 +2,7 @@
 
 @section('pageTitle')
 
-Partners | Tansa Tech LLC | Energy Consultancy
+Partners 
 
 @endsection
 

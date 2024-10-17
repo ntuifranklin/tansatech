@@ -20,17 +20,17 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo-outer">
-                        <div class="logo"><a href="/home"><img width="592" height="91" src="{{ asset('/images/tansatech_first_logo.jpg') }}" alt="" title="{{ config('app.appname')}}"></a></div>
+                        <div class="logo"><a href="/home"><img width="180" height="49" src="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" alt="" title="{{ config('app.appname')}}"></a></div>
                     </div>
                     
-                    <!-- Requires definition of route with name contact in routing -->
-                    @if(Route::is('contact') )
+                    <!-- Requires definition of route with name contact in routing 
+                     and also the definition of route operational-technology
+                    -->
                     
+                    @if(Route::is('contact'))
                         @include('partials.officeinfoheader')
-                    
                     @else
-                        @include('partials.standardinfoheader') 
-                    
+                        @include('partials.standardinfoheader')
                     @endif
                 </div>
             </div>
@@ -66,7 +66,7 @@
                                 <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
                                     <li class="panel-outer">
                                         <div class="form-container">
-                                            <form method="post" action="index') }}">
+                                            <form>
                                                 <div class="form-group">
                                                     <input type="search" name="field-name" value="" placeholder="Search Here" required>
                                                     <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
@@ -78,14 +78,15 @@
                             </div>
                         </div>
 
+                        <!-- 
                         <div class="social-links">
                             <ul class="social-icon-one">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-skype"></span></a></li>
                                 <li><a href="{{ config('app.linkedinurl') }}"><span class="fab fa-linkedin-in"></span></a></li>
                             </ul>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
@@ -96,7 +97,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="/" title=""><img width="180" height="49" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="" title=""></a>
+                    <a href="/" title=""><img width="180" height="49" src="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -118,7 +119,7 @@
             
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
-            	<div class="nav-logo"><a href="{{ asset('/home') }}"><img width="592" height="91" src="{{ asset('/images/tansatech_first_logo.png') }}" alt="Tansa Tech LLC logo" title="Tansa Tech LLC"></a></div>
+            	<div class="nav-logo"><a href="{{ asset('/home') }}"><img width="180" height="49" src="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" alt="Tansa Tech LLC logo" title="Tansa Tech LLC"></a></div>
                 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
             </nav>

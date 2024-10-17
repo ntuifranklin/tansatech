@@ -3,7 +3,7 @@
 
 @section('pageTitle')
 
-Testimonials | Tansa Tech LLC | Energy Consultancy
+Testimonials
 
 @endsection
 

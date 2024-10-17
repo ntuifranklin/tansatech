@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>@yield('pageTitle')</title>
+<title>@yield('pageTitle') | {{ config('app.name') }}</title>
 <!-- Stylesheets -->
 <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
