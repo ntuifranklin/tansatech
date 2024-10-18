@@ -26,7 +26,7 @@ return [
 
     'name' => env('APP_NAME', 'Tansa Tech LLC'),
     'appname' => env('APP_NAME', 'Tansa Tech LLC'),
-    'appweburl' => env('APP_URL', 'https://balengou.tansatech.com'),
+    'appweburl' => env('APP_URL', 'https://engineering.tansatech.com'),
     'linkedinurl' => env('COMPANY_LINKED_IN', "https://www.linkedin.com/company/tansa-tech-llc/"),
     'youtubeurl' => env('YOUTUBE_URL', "https://www.youtube.com/watch?v=1OEtkp5riUw"),
     

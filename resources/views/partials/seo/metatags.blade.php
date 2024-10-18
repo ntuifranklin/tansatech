@@ -1,5 +1,5 @@
 
-<meta property="og:image" content="{{ asset('/images/tansatech_first_logo.png') }}">
+<meta property="og:image" content="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta name="robots" content="index, follow">
@@ -11,7 +11,7 @@
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ asset('/images/tansatech_first_logo.png') }}">
+<meta name="twitter:image" content="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}">
 <meta name="twitter:site" content="@ {{ config('app.appname') }}">
 <meta name="twitter:creator" content="@ {{ config('app.appname') }}">
 <meta name="theme-color" content="#140936"> <!-- or <meta name="theme-color" content="#2a9d8f"> -->

@@ -12,8 +12,8 @@
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
 
-<link rel="shortcut icon" href="{{ asset('/images/tansatech_first_logo.png') }}" type="image/x-icon">
-<link rel="icon" href="{{ asset('/images/tansatech_first_logo.png') }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" type="image/x-icon">
+<link rel="icon" href="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

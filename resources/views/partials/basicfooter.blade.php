@@ -31,12 +31,7 @@
                                                 <img width="90" height="90" src="{{ asset('/images/sba_certified_logo.jpg') }}" alt="">
                                             </figure>
                                         </li>
-                                        <li><hr/></li>
-                                        <li>
-                                            <figure class="image">
-                                                <img width="90" height="90" src="{{ asset('/images/nmsdc_mbe_certified.jpg') }}" alt="">
-                                            </figure>
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -54,8 +49,13 @@
                                             <!-- <li><a href="/about">About Us</a></li> -->
                                             <li><a href="/contact">Get A Quote</a></li>
                                             <li><a href="/contact">Contact Us</a></li>
+                                           
+                                           
                                         </ul>
                                     </div>
+                                    <figure class="image">
+                                                    <img width="130" height="130" src="{{ asset('/images/nmsdc_mbe_certified.jpg') }}" alt="">
+                                    </figure>
                                 </div>
                             </div>
 

@@ -9,7 +9,7 @@ Home
 
 <meta content="Empowering the energy and water industry with innovative solutions. From efficient resource management to sustainable infrastructure, we deliver cutting-edge technologies and expertise to drive forward progress and sustainability." name="description">
 <meta name="keywords" content="renewable energy, water management, conservation, sustainable development, clean technology, environmental solutions, smart grid, wastewater treatment, green infrastructure, energy efficiency, sustainable practices, eco-friendly solutions, climate change mitigation, renewable resources, water purification">
-<meta property="og:title" content="Contact Us | {{ config('app.appname') }}">
+<meta property="og:title" content="Home | {{ config('app.appname') }}">
 <meta property="og:description" content="Empowering the energy and water industry with innovative solutions. From efficient resource management to sustainable infrastructure, we deliver cutting-edge technologies and expertise to drive forward progress and sustainability.">
 
 @endsection
@@ -24,7 +24,7 @@ Home
                     <!-- Slide 1 -->
                     <li data-transition="parallaxvertical" data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1681" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="{{ asset('/images/main-slider/4.jpg') }}">
 
-                        <img width="1920" height="745" alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ asset('/images/tansatech_first_logo.png')}}">
+                        <img width="1920" height="745" alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{ asset('/images/TansaTech_Moto_Good.png')}}">
                         
                         <div class="tp-caption" 
                         data-paddingbottom="[0,0,0,0]"
@@ -80,7 +80,7 @@ Home
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">With over 25 years of experience & the company’s factory has a production’s capacity of 86,000 Metric Tons. Meet all customers'</div>
+                            
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 

@@ -80,16 +80,7 @@
                                 </article>
                             </div>
                         </div>
-
-                        <!--Help Box-->
-                        <div class="help-box">
-                            <div class="inner">
-                                <h4>Download Brochures</h4>
-                                <div class="text">Checkout our brochures, or just reach out for any questions !</div>
-                                <a class="theme-btn btn-style-one" href="/contact"><i class="la la-file-pdf-o"></i> Info Company</a>
-                                <a class="theme-btn btn-style-one" href="/contact"><i class="la la-file-pdf-o"></i> Brochure Newest</a>
-                            </div>
-                        </div>                        
+                     
 
                         <!-- Tags Widget -->
                         <div class="sidebar-widget contact-widget">

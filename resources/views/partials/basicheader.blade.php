@@ -5,7 +5,7 @@
             <div class="auto-container clearfix">
                 <div class="top-right clearfix">
                     <ul class="info-list">
-                        <li class="title"><strong>Do you need help? Here Us:</strong></li>
+                        <li class="title"><strong>Need Assistance? We're Here to Help! Contact Us:</strong></li>
                         <li><span class="material-icons">phone</span><a href="tel:{{ config('app.phone') }}">{{ config('app.phone') }}</a></li>
                         <li><span class="material-icons">email</span><a href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a></li>
                         <li><span class="material-icons">access_time</span> Mon - Fri: 8am - 6pm</li>
@@ -111,7 +111,6 @@
             </div>
         </div><!-- End Sticky Menu -->
 
-
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
@@ -125,5 +124,5 @@
             </nav>
         </div><!-- End Mobile Menu -->
 
-    </header>
-    <!-- End Main Header -->
+</header>
+<!-- End Main Header -->

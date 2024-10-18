@@ -5,7 +5,7 @@
             <div class="auto-container clearfix">
                 <div class="top-left">
                     <ul class="info-list">
-                        <li><strong>Do you need help? Here Us:</strong></li>
+                        <li><strong>Need Assistance? We're Here to Help! Contact Us:</strong></li>
                         <li><span class="material-icons">phone</span><a href="tel:001-845-28386">(001)-845-28386</a></li>
                         <li><span class="material-icons">email</span><a href="mailto:info@industar.com">info@industar.com</a></li>
                         <li><span class="material-icons">access_time</span> Mon - Fri: 8am - 6pm</li>
