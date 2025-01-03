@@ -5,7 +5,9 @@
 <title>@yield('pageTitle') | {{ config('app.name') }} </title>
 <!-- Stylesheets -->
 <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+
 <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
 
 <link rel="shortcut icon" href="{{ asset('/images/tansatech_first_logo.png') }}" type="image/x-icon">

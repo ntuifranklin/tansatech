@@ -61,7 +61,7 @@ Home
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <h2>Provide the <strong>Best Solution</strong> <br>for all Industries</h2>
+                            <h2>Provide the <strong>Best Solutions</strong> <br>for Targeted Industries</h2>
                         </div>  
                         
                         <div class="tp-caption" 
@@ -125,9 +125,15 @@ Home
                 </div>
                 <div class="text-column col-lg-9 col-md-12 col-sm-12">
                     <div class="inner-column">
-                        <div class="text">We have the facility to produce advance work on various industrial applications based on specifically developed technology. 
-                            We are also ready for the developement according to users changing needs. 
-                            Infrastructure related installation projects. General repair & industrial and machinery.
+                        <div class="text">
+                            Tansa Tech LLC, is a dedicated team of engineers, 
+                            specializing in delivering tailored solutions in energy, chemicals production, 
+                            water, and solid waste management. 
+                            Our expertise extends to research and development in the engineering and energy fields, 
+                            complemented by OT / IT services such as software development, systems maintenance, 
+                            process control, and operational intelligence. 
+                            With a commitment to excellence, 
+                            we empower our clients to thrive in their respective industries.
                         </div>
                     </div>
                 </div>
@@ -153,7 +159,7 @@ Home
                             <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><span class="icon flaticon-checklist"></span></div>
                                 <h4><a href="{{ asset('/services') }}">Markets and Product</a></h4>
-                                <div class="text">Our team offers the most up-to-date, sustainable custom manufacturing solutions. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="text">Our team offers the most up-to-date, sustainable custom manufacturing solutions.</div>
                             </div>
                         </div>
 

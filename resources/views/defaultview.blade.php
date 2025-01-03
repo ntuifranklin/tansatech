@@ -10,6 +10,7 @@
 <link href="{{ asset('/plugins/revolution/css/navigation.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
 
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+
 <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
 
 <link rel="shortcut icon" href="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" type="image/x-icon">

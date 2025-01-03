@@ -12,7 +12,18 @@ return [
     'zipcode' => env('COMPANY_ZIP_CODE'),
     'latitude' => env('COMPANY_LATITUDE'),
     'longitude' => env('COMPANY_LONGITUDE'),
+    'google_maps_api_key' => env('GOOGLE_MAPS_API_KEY'),
+
     
+
+    /* Second location */
+    'phone2' => env('COMPANY_PHONE_NO2'),
+    'street2' => env('COMPANY_STREET2'),
+    'city2' => env('COMPANY_CITY2'),
+    'state2' => env('COMPANY_STATE2'),
+    'zipcode2' => env('COMPANY_ZIP_CODE2'),
+    'latitude2' => env('COMPANY_LATITUDE2'),
+    'longitude2' => env('COMPANY_LONGITUDE2'),
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -30,6 +41,8 @@ return [
     'linkedinurl' => env('COMPANY_LINKED_IN', "https://www.linkedin.com/company/tansa-tech-llc/"),
     'youtubeurl' => env('YOUTUBE_URL', "https://www.youtube.com/watch?v=1OEtkp5riUw"),
     
+    /* Web Agency Builder Details */
+    'dev_agency' => env('DEV_LINKED_IN','ouodesignllc.com'),
 
     /*
     |--------------------------------------------------------------------------

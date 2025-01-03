@@ -5,7 +5,10 @@
 <title>@yield('pageTitle') | {{ config('app.name') }}</title>
 <!-- Stylesheets -->
 <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
+
 <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+
 <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
 
 <link rel="shortcut icon" href="{{ asset('/images/tansa_tech_logo_svg_format.svg') }}" type="image/x-icon">
@@ -48,7 +51,7 @@
 
 @include('partials.pagejs.basicjs')
 <!--Google Map APi Key-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ config('app.google_maps_api_key') }}"></script>
 <script src="{{ asset('/js/map-script.js') }}"></script>
 </body>
 </html>

@@ -80,9 +80,19 @@ Contact Us
                     <div class="inner-column">
                         <!-- Location -->
                         <div class="location-info">
-                            <h4 class="title">Location</h4>
+                            <h4 class="title">Philadelphia</h4>
                             <ul class="info-list">
                                 <li>{{ config('app.street') }}, {{ config('app.city') }}, {{ config('app.state') }} {{ config('app.zipcode') }}</li>
+                                <!-- <li>407 St John St Islington, London</li> -->
+                                <!-- <li>116 Rue Saint-Denis, 75002 Paris</li>  -->
+                            </ul>
+                        </div>
+                        
+                        <!-- Location -->
+                        <div class="location-info">
+                            <h4 class="title">Washington</h4>
+                            <ul class="info-list">
+                                <li>{{ config('app.street2') }}, {{ config('app.city2') }}, {{ config('app.state2') }} {{ config('app.zipcode2') }}</li>
                                 <!-- <li>407 St John St Islington, London</li> -->
                                 <!-- <li>116 Rue Saint-Denis, 75002 Paris</li>  -->
                             </ul>
@@ -104,7 +114,8 @@ Contact Us
                         <div class="contact-info">
                             <h4 class="title">Contact info</h4>
                             <ul class="info-list">
-                                <li><a href="tel:{{ config('app.phone') }}">{{ config('app.phone') }}</a></li>
+                                <li>Phladelphia: <a href="tel:{{ config('app.phone') }}">{{ config('app.phone') }}</a></li>
+                                <li>Washington DC: <a href="tel:{{ config('app.phone') }}">{{ config('app.phone2') }}</a></li>
                                 <li><a href="mailto:{{ config('app.email') }}">{{ config('app.email') }}</a></li>
                                 <!-- <li><a href="mailto:info@industar.com">contact@industar.com</a></li> -->
                             </ul>
@@ -121,7 +132,7 @@ Contact Us
                         </div>
                         -->
 
-                        <!-- Social Outer 
+                        
                         <div class="map-outer">
                             <div class="map-canvas"
                                 data-zoom="12"
@@ -134,7 +145,7 @@ Contact Us
                                 data-content="{{ config('app.city') }} {{ config('app.zipcode') }} , US<br><a href='mailto:{{ config('app.email') }}'>{{ config('app.email') }}</a>">
                             </div>
                         </div>
-                        -->
+                    
                     </div>
                 </div>
             </div>
