@@ -27,7 +27,12 @@
                             <div class="inner">
                                 <div class="icon"><span class="la la-map-marker"></span></div>
                                 <strong>Philadelphia Office</strong>
-                                <span class="info">{{ config('app.street') }}, <br>{{ config('app.state') }},  {{ config('app.zipcode') }}</span>
+                                <span class="info">
+                                    {{ config('app.street') }}, <br>
+                                    {{ config('app.city') }}, <br>
+                                    {{ config('app.state') }},
+                                    {{ config('app.zipcode') }}
+                                </span>
                             </div>
                         </div>
                         
@@ -36,7 +41,12 @@
                             <div class="inner">
                                 <div class="icon"><span class="la la-map-marker"></span></div>
                                 <strong>Washington Office</strong>
-                                <span class="info">{{ config('app.street2') }}, <br>{{ config('app.state2') }},  {{ config('app.zipcode2') }}</span>
+                                <span class="info">
+                                    {{ config('app.street2') }}, <br>
+                                    {{ config('app.city2') }}, <br>
+                                    {{ config('app.state2') }},
+                                    {{ config('app.zipcode2') }}
+                                </span>
                             </div>
                         </div>
                     </div>
