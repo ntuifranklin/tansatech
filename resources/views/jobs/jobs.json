@@ -1,0 +1,150 @@
+[
+  {
+    "id": 5848374,
+    "title": "Business Analyst",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 58000,
+      "max": 90000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-03-25",
+    "description": [
+      "We are looking for a skilled Business Analyst to join our team.",
+      "In this role, you will be responsible for gathering business requirements, ",
+      "analyzing data, and working closely with stakeholders to improve processes.",
+      "You will collaborate with development teams to ensure that business needs ",
+      "are effectively translated into functional solutions."
+    ],
+    "requirements": [
+      "3+ years of experience in Business Analysis",
+      "Proficiency in SQL and data analysis",
+      "Experience with Agile methodologies"
+    ],
+    "responsibilities": [
+      "Gather business requirements",
+      "Work with stakeholders to improve processes",
+      "Collaborate with development teams"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Business Analyst'",
+    "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5885958,
+    "title": "Software Developer",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "employment_type": "Contract",
+    "remote": true,
+    "salary": {
+      "min": 50,
+      "max": 70,
+      "currency": "USD",
+      "frequency": "hourly"
+    },
+    "posted_date": "2025-03-22",
+    "description": [
+      "We are seeking an experienced Software Developer to work on cutting-edge projects.",
+      "You will be responsible for developing and maintaining web applications, ",
+      "optimizing code for performance and scalability, and collaborating with cross-functional teams.",
+      "The ideal candidate should have a strong background in Python and JavaScript, ",
+      "as well as experience with cloud platforms like AWS or Azure."
+    ],
+    "requirements": [
+      "5+ years of experience in software development",
+      "Strong knowledge of Python and JavaScript",
+      "Experience with cloud platforms like AWS or Azure"
+    ],
+    "responsibilities": [
+      "Develop and maintain web applications",
+      "Optimize code for performance and scalability",
+      "Work with cross-functional teams"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Software Developer'",
+    "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5901123,
+    "title": "Cloud Engineer",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 95000,
+      "max": 130000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-03-30",
+    "description": [
+      "We are hiring a Cloud Engineer to optimize and manage our cloud infrastructure.",
+      "The ideal candidate will have experience with AWS, Azure, or Google Cloud, ",
+      "and will be responsible for designing, deploying, and maintaining scalable solutions.",
+      "You will work closely with development teams to ensure efficient and secure cloud operations."
+    ],
+    "requirements": [
+      "5+ years of experience in cloud engineering",
+      "Expertise in AWS, Azure, or Google Cloud",
+      "Experience with Kubernetes and Docker",
+      "Familiarity with infrastructure as code (Terraform, CloudFormation)"
+    ],
+    "responsibilities": [
+      "Design and implement cloud-based solutions",
+      "Optimize cloud resources for performance and cost",
+      "Ensure security best practices in cloud environments"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Cloud Engineer'",
+    "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5910045,
+    "title": "Data Scientist",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": false,
+    "salary": {
+      "min": 85000,
+      "max": 120000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-03-28",
+    "description": [
+      "Tansa Tech is seeking a Data Scientist to extract insights from large datasets.",
+      "In this role, you will develop machine learning models, build predictive analytics, ",
+      "and work with business teams to improve decision-making processes.",
+      "A strong background in Python, SQL, and data visualization is required."
+    ],
+    "requirements": [
+      "3+ years of experience in data science",
+      "Strong knowledge of Python, SQL, and data visualization tools",
+      "Experience with machine learning frameworks like TensorFlow or PyTorch",
+      "Ability to work with large datasets and optimize models for performance"
+    ],
+    "responsibilities": [
+      "Develop and deploy machine learning models",
+      "Analyze data to extract insights and inform business strategies",
+      "Collaborate with engineers and analysts on data-driven projects"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Data Scientist'",
+    "contact_email": "info@tansatech.com"
+  }
+]

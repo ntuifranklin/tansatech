@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Include Blog Routes
+Route::prefix('blog')->group(function () {
+    require __DIR__ . '/blog.php';
+});
+
+// Load job routes
+require __DIR__.'/jobs.php';
+
+
 Route::get('/contact', function () {
     return view('contact');
 }) -> name('contact');
@@ -42,12 +51,6 @@ Route::get('/projects', function () {
 Route::get('/ai', function () {
     return view('ai');
 });
-
-/*
-Route::get('/services', function () {
-    return view('services');
-});
-*/
 
 Route::get('/operational-technology', function(){
     return view('operational-technology');
@@ -87,7 +90,21 @@ Route::get('/sustainable-systems-circular-economy', function () {
     return view('sustainable-systems-circular-economy');
 });
 
+/*
+Route::get('/blog', function () {
+    return view('blog.bloghome');
+});
 
+
+Route::get('/blog/why_do_building_cameras_fail', function () {
+    return view('blog.camera_building_issues');
+});
+
+
+Route::get('/blog/step_by_step_guide_to_implementing_cloud_mitigation_strategies', function () {
+    return view('blog.step_by_step_guide_to_implementing_cloud_mitigation_strategies');
+});
+*/
 Route::fallback(function () {
     return view('error404');
 });

@@ -16,15 +16,16 @@
                                         </figure>
                                 </div>
                                 <div class="widget-content">
-                                    <div class="text">We give value to the excellence and <br>top class engineers, but in terms of<br> accurate service.</div>
-                                    <!-- 
+                                    <div class="text">We give value to excellence and <br>top class engineers, but in terms of<br> accurate service.</div>
+                                     
                                     <ul class="social-icon-one">
+                                        <!-- 
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        
+                                        -->
                                         <li><a href="{{ config('app.linkedinurl') }}"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
-                                    -->
+                                    
                                     <div class="row">
                                         <div class="col-md-5">
                                             <figure class="image">
@@ -50,7 +51,7 @@
                                     <div class="widget-content">
                                         <ul class="list">
                                             <li><a href="/home">Home</a></li>
-                                            <!-- <li><a href="/about">About Us</a></li> -->
+                                            <li><a href="/jobs">Careers</a></li>
                                             <li><a href="/contact">Get A Quote</a></li>
                                             <li><a href="/contact">Contact Us</a></li>
                                            

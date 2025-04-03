@@ -1,0 +1,33 @@
+[
+
+    {
+        "image":"https://engineering.tansatech.com/images/ai_generated_camera_image.png",
+        "url":"/blog/why_do_building_cameras_fail",
+        "title":"Why do Building Cameras Fail ?",
+        "date":"February 9, 2025",
+        "author": "Franklin Nkokam Ngongang",
+        "author_contact":"https://tinyurl.com/y9nhkhhm/",
+        "mini_description":"Cameras installed in buildings can experience power outages or intermittent connectivity due to several reasons. Here are some common causes:"    
+    
+    },
+    {
+        "image":"https://engineering.tansatech.com/images/cloud_migration_image.jpg",
+        "url":"https://engineering.tansatech.com/blog/step_by_step_guide_to_implementing_cloud_mitigation_strategies",
+        "title":"A Step-by-Step Guide to Implementing Cloud Migration Strategies",
+        "date":"March 20, 2025",
+        "author": "Franklin Nkokam Ngongang",
+        "author_contact":"https://tinyurl.com/y9nhkhhm/",
+        "mini_description":" Cloud migration is no longer just a trend; it's a necessity for businesses looking to stay competitive in today’s digital landscape. Whether you're moving..."    
+    
+    },
+    {
+        "image":"https://miro.medium.com/v2/resize:fit:720/format:webp/1*eDJPLNjRAT_cWauEsQOevA.png",
+        "url":"https://medium.com/@ntuifranklin2005/what-are-transactions-in-databases-and-why-are-they-important-part-ii-4ac44417c32b",
+        "title":"What Are Transactions In Databases And Why Are They Important? ",
+        "date":"August 7, 2023",
+        "author": "Franklin Nkokam Ngongang",
+        "author_contact":"https://tinyurl.com/y9nhkhhm/",
+        "mini_description":"In the first article in this series, we introduced the concept of transactions. Then we setup the environment necessary for the code used in this article to run smoothly"    
+    
+    }
+]
