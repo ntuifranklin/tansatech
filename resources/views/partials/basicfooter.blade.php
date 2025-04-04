@@ -19,8 +19,9 @@
                                     <div class="text">We give value to excellence and <br>top class engineers, but in terms of<br> accurate service.</div>
                                      
                                     <ul class="social-icon-one">
+                                        
+                                        <li><a href="{{ config('app.facebookurl') }}"><i class="fab fa-facebook-f"></i></a></li>
                                         <!-- 
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         -->
                                         <li><a href="{{ config('app.linkedinurl') }}"><i class="fab fa-linkedin-in"></i></a></li>

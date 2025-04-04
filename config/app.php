@@ -40,7 +40,7 @@ return [
     'appweburl' => env('APP_URL', 'https://engineering.tansatech.com'),
     'linkedinurl' => env('COMPANY_LINKED_IN', "https://www.linkedin.com/company/tansa-tech-llc/"),
     'youtubeurl' => env('YOUTUBE_URL', "https://www.youtube.com/watch?v=1OEtkp5riUw"),
-    
+    'facebookurl' => env('COMPANY_FACEBOOK_PAGE', "https://www.facebook.com/profile.php?id=61574787670734"),
     /* Web Agency Builder Details */
     'dev_agency' => env('DEV_LINKED_IN','ouodesignllc.com'),
 
