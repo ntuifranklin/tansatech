@@ -21,6 +21,13 @@ Route::prefix('blog')->group(function () {
 // Load job routes
 require __DIR__.'/jobs.php';
 
+Route::get('/career', function () {
+    return view('careers');
+})->name('career');
+
+Route::get('/careers', function () {
+    return view('careers');
+})->name('careers');
 
 Route::get('/contact', function () {
     return view('contact');

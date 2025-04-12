@@ -52,7 +52,7 @@
                                     <div class="widget-content">
                                         <ul class="list">
                                             <li><a href="/home">Home</a></li>
-                                            <li><a href="/jobs">Careers</a></li>
+                                            <li><a href="/career">Careers</a></li>
                                             <li><a href="/contact">Get A Quote</a></li>
                                             <li><a href="/contact">Contact Us</a></li>
                                            

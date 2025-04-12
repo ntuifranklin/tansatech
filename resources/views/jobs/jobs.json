@@ -146,5 +146,142 @@
     ],
     "application_instructions": "Send an email to the contact email below with subject 'Application for Position Data Scientist'",
     "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5911120,
+    "title": "Software Engineer – AI Integration",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 100000,
+      "max": 140000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-04-10",
+    "description": [
+      "Work on integrating AI pipelines with backend platforms for the energy sector.",
+      "Collaborate with data scientists and DevOps engineers to streamline deployment of intelligent systems.",
+      "Ensure scalable and reliable AI services in production environments."
+    ],
+    "requirements": [
+      "4+ years of backend development experience",
+      "Experience integrating AI/ML systems into production",
+      "Strong programming skills in Python and/or Go"
+    ],
+    "responsibilities": [
+      "Integrate AI models with backend systems",
+      "Collaborate across data and engineering teams",
+      "Optimize performance and reliability of AI services"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Software Engineer – AI Integration'",
+    "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5911121,
+    "title": "DevOps Engineer",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 95000,
+      "max": 125000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-04-10",
+    "description": [
+      "Build CI/CD pipelines, secure cloud deployments, and automate infrastructure.",
+      "Work closely with development teams to support efficient delivery pipelines and platform reliability."
+    ],
+    "requirements": [
+      "3+ years of DevOps or SRE experience",
+      "Proficiency in CI/CD tooling and infrastructure automation",
+      "Experience with cloud environments (AWS, GCP, or Azure)"
+    ],
+    "responsibilities": [
+      "Design and implement CI/CD pipelines",
+      "Automate cloud infrastructure and deployments",
+      "Monitor and improve system reliability"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position DevOps Engineer'",
+    "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5911122,
+    "title": "Machine Learning Engineer",
+    "location": {
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 105000,
+      "max": 135000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-04-10",
+    "description": [
+      "Research and implement predictive models for power systems and failure analysis.",
+      "Develop scalable machine learning pipelines for real-time and batch inference."
+    ],
+    "requirements": [
+      "3+ years of experience in machine learning",
+      "Strong background in predictive modeling and feature engineering",
+      "Experience with ML frameworks such as TensorFlow or PyTorch"
+    ],
+    "responsibilities": [
+      "Design and train machine learning models",
+      "Build and maintain ML pipelines",
+      "Collaborate with domain experts in the energy sector"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Machine Learning Engineer'",
+    "contact_email": "info@tansatech.com"
+  },
+  {
+    "id": 5911123,
+    "title": "Frontend Engineer (React)",
+    "location": {
+      "city": "Remote",
+      "state": "",
+      "country": "USA"
+    },
+    "employment_type": "Full-time",
+    "remote": true,
+    "salary": {
+      "min": 90000,
+      "max": 115000,
+      "currency": "USD",
+      "frequency": "yearly"
+    },
+    "posted_date": "2025-04-10",
+    "description": [
+      "Build interactive dashboards and visualizations for energy clients.",
+      "Work closely with designers and backend developers to deliver responsive, data-driven UIs."
+    ],
+    "requirements": [
+      "3+ years of frontend development experience",
+      "Strong proficiency in React and modern JavaScript",
+      "Experience with data visualization libraries (e.g., D3.js, Chart.js)"
+    ],
+    "responsibilities": [
+      "Develop and maintain UI components using React",
+      "Implement rich, interactive dashboards",
+      "Ensure responsiveness and performance across devices"
+    ],
+    "application_instructions": "Send an email to the contact email below with subject 'Application for Position Frontend Engineer (React)'",
+    "contact_email": "info@tansatech.com"
   }
 ]
